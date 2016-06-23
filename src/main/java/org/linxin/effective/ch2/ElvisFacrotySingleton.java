@@ -1,4 +1,4 @@
-package org.linxin.effective.ch1;
+package org.linxin.effective.ch2;
 
 /**
  * Created by linxing on 13/06/2016.

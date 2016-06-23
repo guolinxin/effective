@@ -1,4 +1,4 @@
-package org.linxin.effective.ch1;
+package org.linxin.effective.ch2;
 
 import java.util.Calendar;
 import java.util.Date;

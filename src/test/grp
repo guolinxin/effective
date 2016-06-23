@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collection_pcat COUNT="1" START="1" TOTAL_COUNT="1">
+    <pcat id="400315" REL_ATTR="pcat:400315" COMMON_NAME="customer specific.wan connectivity service.router issue">
+        <link href="http://10.2.121.216:8050/caisd-rest/pcat/400315" rel="self"/>
+        <all_cr_workflow_templates TYPE="QREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/wftpl?WC=object_type%20%3D%20%27cr%27%20AND%20object_attrval%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </all_cr_workflow_templates>
+        <all_in_workflow_templates TYPE="QREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/wftpl?WC=object_type%20%3D%20%27in%27%20AND%20object_attrval%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </all_in_workflow_templates>
+        <all_pr_workflow_templates TYPE="QREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/wftpl?WC=object_type%20%3D%20%27pr%27%20AND%20object_attrval%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </all_pr_workflow_templates>
+        <all_workflow_templates TYPE="QREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/wftpl?WC=object_type%20%3D%20%27cr%27%20AND%20object_attrval%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </all_workflow_templates>
+        <caextwf_split_flag>0</caextwf_split_flag>
+        <cawf_cache>1465925154</cawf_cache>
+        <cr_flag>1</cr_flag>
+        <delete_flag id="4551" REL_ATTR="0" COMMON_NAME="Active">
+            <link href="http://10.2.121.216:8050/caisd-rest/actbool/4551" rel="self"/>
+        </delete_flag>
+        <in_flag>1</in_flag>
+        <last_mod_by id="U'A8C6BD13714C8A41A7CF98A660FB3E3F'" REL_ATTR="U'A8C6BD13714C8A41A7CF98A660FB3E3F'"
+                     COMMON_NAME="Federos">
+            <link href="http://10.2.121.216:8050/caisd-rest/cnt/U'A8C6BD13714C8A41A7CF98A660FB3E3F'" rel="self"/>
+        </last_mod_by>
+        <last_mod_dt>1464961034</last_mod_dt>
+        <persistent_id>pcat:400315</persistent_id>
+        <pr_flag>1</pr_flag>
+        <producer_id>pcat</producer_id>
+        <properties TYPE="BREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/cr_prptpl?WC=owning_area%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </properties>
+        <service_grps TYPE="BREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/lrel_svc_grps_svc_pcat?WC=pcat%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </service_grps>
+        <service_locs TYPE="BREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/lrel_svc_locs_svc_pcat?WC=pcat%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </service_locs>
+        <service_schedules TYPE="BREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/lrel_svc_schedules_pcat_svc?WC=pcat%20%3D%20%27pcat%3A400315%27"
+                  rel="all"/>
+        </service_schedules>
+        <ss_include id="201" REL_ATTR="1" COMMON_NAME="YES">
+            <link href="http://10.2.121.216:8050/caisd-rest/bool/201" rel="self"/>
+        </ss_include>
+        <ss_sym>ca1</ss_sym>
+        <suggest_knowledge>-1</suggest_knowledge>
+        <sym>customer specific.wan connectivity service.router issue</sym>
+        <workflow_templates TYPE="QREL">
+            <link href="http://10.2.121.216:8050/caisd-rest/wftpl?WC=object_type%20%3D%20%27cr%27%20AND%20object_attrval%20%3D%20%27pcat%3A400315%27%20AND%20delete_flag%20%3D%200"
+                  rel="all"/>
+        </workflow_templates>
+    </pcat>
+</collection_pcat>
